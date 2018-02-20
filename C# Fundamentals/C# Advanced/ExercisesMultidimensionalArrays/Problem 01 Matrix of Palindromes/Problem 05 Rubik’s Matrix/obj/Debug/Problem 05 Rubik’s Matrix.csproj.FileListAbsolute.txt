@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\bin\Debug\Problem 05 Rubik’s Matrix.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\bin\Debug\Problem 05 Rubik’s Matrix.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\bin\Debug\Problem 05 Rubik’s Matrix.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\obj\Debug\Problem 05 Rubik’s Matrix.csprojResolveAssemblyReference.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\obj\Debug\Problem 05 Rubik’s Matrix.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\obj\Debug\Problem 05 Rubik’s Matrix.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 05 Rubik’s Matrix\obj\Debug\Problem 05 Rubik’s Matrix.pdb

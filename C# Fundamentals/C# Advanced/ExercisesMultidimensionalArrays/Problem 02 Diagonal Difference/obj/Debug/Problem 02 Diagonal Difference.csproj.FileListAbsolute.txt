@@ -1,0 +1,6 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\obj\Debug\Problem 02 Diagonal Difference.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\bin\Debug\Problem 02 Diagonal Difference.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\bin\Debug\Problem 02 Diagonal Difference.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\bin\Debug\Problem 02 Diagonal Difference.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\obj\Debug\Problem 02 Diagonal Difference.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 02 Diagonal Difference\obj\Debug\Problem 02 Diagonal Difference.pdb

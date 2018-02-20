@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\bin\Debug\Problem 03 2x2 Squares in Matrix.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\bin\Debug\Problem 03 2x2 Squares in Matrix.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\bin\Debug\Problem 03 2x2 Squares in Matrix.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\obj\Debug\Problem 03 2x2 Squares in Matrix.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\obj\Debug\Problem 03 2x2 Squares in Matrix.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\obj\Debug\Problem 03 2x2 Squares in Matrix.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 03 2x2 Squares in Matrix\obj\Debug\Problem 03 2x2 Squares in Matrix.csprojResolveAssemblyReference.cache

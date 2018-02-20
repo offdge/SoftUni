@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\bin\Debug\Problem_1.Matrix_of_Palindromes.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\bin\Debug\Problem_1.Matrix_of_Palindromes.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\bin\Debug\Problem_1.Matrix_of_Palindromes.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\obj\Debug\Problem 01 Matrix of Palindromes.csprojResolveAssemblyReference.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\obj\Debug\Problem 01 Matrix of Palindromes.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\obj\Debug\Problem_1.Matrix_of_Palindromes.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 01 Matrix of Palindromes\obj\Debug\Problem_1.Matrix_of_Palindromes.pdb
