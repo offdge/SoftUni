@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Key Revolver", "01. Key Revolver\01. Key Revolver.csproj", "{141A4A88-D0B6-491E-A44D-9E05CA4A9AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Hit List", "04. Hit List\04. Hit List.csproj", "{5FD937B3-7775-474D-AC77-56FB7A7F8F49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141A4A88-D0B6-491E-A44D-9E05CA4A9AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141A4A88-D0B6-491E-A44D-9E05CA4A9AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141A4A88-D0B6-491E-A44D-9E05CA4A9AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141A4A88-D0B6-491E-A44D-9E05CA4A9AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD937B3-7775-474D-AC77-56FB7A7F8F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD937B3-7775-474D-AC77-56FB7A7F8F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD937B3-7775-474D-AC77-56FB7A7F8F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD937B3-7775-474D-AC77-56FB7A7F8F49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A031D844-B394-46BF-A8EE-20262AD3A3BA}
+	EndGlobalSection
+EndGlobal

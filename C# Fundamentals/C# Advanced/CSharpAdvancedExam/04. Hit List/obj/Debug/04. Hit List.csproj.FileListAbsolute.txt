@@ -1,0 +1,6 @@
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\bin\Debug\_04.Hit_List.exe.config
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\bin\Debug\_04.Hit_List.exe
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\bin\Debug\_04.Hit_List.pdb
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\obj\Debug\04. Hit List.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\obj\Debug\_04.Hit_List.exe
+Z:\03_C# Advanced\CSharpAdvancedExam\04. Hit List\obj\Debug\_04.Hit_List.pdb

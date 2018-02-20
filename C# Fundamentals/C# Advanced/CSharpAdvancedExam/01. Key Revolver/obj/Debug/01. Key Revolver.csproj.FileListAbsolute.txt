@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\bin\Debug\_01.Key_Revolver.exe.config
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\bin\Debug\_01.Key_Revolver.exe
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\bin\Debug\_01.Key_Revolver.pdb
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\obj\Debug\01. Key Revolver.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\obj\Debug\_01.Key_Revolver.exe
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\obj\Debug\_01.Key_Revolver.pdb
+Z:\03_C# Advanced\CSharpAdvancedExam\01. Key Revolver\obj\Debug\01. Key Revolver.csprojResolveAssemblyReference.cache
