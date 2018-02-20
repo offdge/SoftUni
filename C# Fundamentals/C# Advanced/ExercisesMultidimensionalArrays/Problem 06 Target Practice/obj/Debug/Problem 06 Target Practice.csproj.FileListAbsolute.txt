@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\bin\Debug\Problem 06 Target Practice.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\bin\Debug\Problem 06 Target Practice.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\bin\Debug\Problem 06 Target Practice.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\obj\Debug\Problem 06 Target Practice.csprojResolveAssemblyReference.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\obj\Debug\Problem 06 Target Practice.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\obj\Debug\Problem 06 Target Practice.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 06 Target Practice\obj\Debug\Problem 06 Target Practice.pdb

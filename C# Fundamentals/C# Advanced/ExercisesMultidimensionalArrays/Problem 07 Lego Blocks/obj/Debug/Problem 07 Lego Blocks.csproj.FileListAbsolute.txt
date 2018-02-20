@@ -1,0 +1,7 @@
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\obj\Debug\Problem 07 Lego Blocks.csprojResolveAssemblyReference.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\obj\Debug\Problem 07 Lego Blocks.csproj.CoreCompileInputs.cache
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\bin\Debug\Problem 07 Lego Blocks.exe.config
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\bin\Debug\Problem 07 Lego Blocks.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\bin\Debug\Problem 07 Lego Blocks.pdb
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\obj\Debug\Problem 07 Lego Blocks.exe
+Z:\03_C# Advanced\ExercisesMultidimensionalArrays\Problem 07 Lego Blocks\obj\Debug\Problem 07 Lego Blocks.pdb
