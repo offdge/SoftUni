@@ -1,0 +1,10 @@
+Z:\01_Programming Fundamentals Exams\Exam Preparation I\SoftUni Karaoke\bin\Debug\SoftUni Karaoke.exe
+Z:\01_Programming Fundamentals Exams\Exam Preparation I\SoftUni Karaoke\bin\Debug\SoftUni Karaoke.pdb
+Z:\01_Programming Fundamentals Exams\Exam Preparation I\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.exe
+Z:\01_Programming Fundamentals Exams\Exam Preparation I\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.pdb
+Z:\01_Programming Fundamentals Exams\Exam Preparation I\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.csprojResolveAssemblyReference.cache
+Z:\01_Programming Fundamentals Exams\SoftUni Karaoke\bin\Debug\SoftUni Karaoke.exe
+Z:\01_Programming Fundamentals Exams\SoftUni Karaoke\bin\Debug\SoftUni Karaoke.pdb
+Z:\01_Programming Fundamentals Exams\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.csprojResolveAssemblyReference.cache
+Z:\01_Programming Fundamentals Exams\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.exe
+Z:\01_Programming Fundamentals Exams\SoftUni Karaoke\obj\Debug\SoftUni Karaoke.pdb

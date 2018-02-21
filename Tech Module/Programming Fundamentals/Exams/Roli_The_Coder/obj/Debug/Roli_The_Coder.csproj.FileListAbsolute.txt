@@ -1,0 +1,10 @@
+Z:\01_Programming Fundamentals Exams\Exam Preparation II\Roli_The_Coder\bin\Debug\Roli_The_Coder.exe
+Z:\01_Programming Fundamentals Exams\Exam Preparation II\Roli_The_Coder\bin\Debug\Roli_The_Coder.pdb
+Z:\01_Programming Fundamentals Exams\Exam Preparation II\Roli_The_Coder\obj\Debug\Roli_The_Coder.csprojResolveAssemblyReference.cache
+Z:\01_Programming Fundamentals Exams\Exam Preparation II\Roli_The_Coder\obj\Debug\Roli_The_Coder.exe
+Z:\01_Programming Fundamentals Exams\Exam Preparation II\Roli_The_Coder\obj\Debug\Roli_The_Coder.pdb
+Z:\01_Programming Fundamentals Exams\Roli_The_Coder\bin\Debug\Roli_The_Coder.exe
+Z:\01_Programming Fundamentals Exams\Roli_The_Coder\bin\Debug\Roli_The_Coder.pdb
+Z:\01_Programming Fundamentals Exams\Roli_The_Coder\obj\Debug\Roli_The_Coder.csprojResolveAssemblyReference.cache
+Z:\01_Programming Fundamentals Exams\Roli_The_Coder\obj\Debug\Roli_The_Coder.exe
+Z:\01_Programming Fundamentals Exams\Roli_The_Coder\obj\Debug\Roli_The_Coder.pdb
