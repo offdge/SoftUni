@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public class Program
 {
@@ -17,7 +18,6 @@ public class Program
             family.AddMember(person);
         }
 
-        var oldestMember = family.GetOldestMember();
-        Console.WriteLine($"{oldestMember.Name} {oldestMember.Age}");
+        family.MoreThan30();
     }
 }

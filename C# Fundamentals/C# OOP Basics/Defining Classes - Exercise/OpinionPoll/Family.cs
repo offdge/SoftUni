@@ -23,4 +23,11 @@ public class Family
     {
         return this.people.OrderBy(x => x.Age).Last();
     }
+    public void MoreThan30()
+    {
+        foreach (var item in people.OrderBy(x => x.Name).Where(x => x.Age > 30))
+        {
+            Console.WriteLine($"{item.Name} - {item.Age}");
+        }
+    }
 }
