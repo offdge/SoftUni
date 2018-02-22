@@ -18,11 +18,11 @@ public class DateModifier
         set { secondDate = value; }
     }
 
-    public FirstDate(string firstDate)
-    {
-        this.firstDate =  DateTime.ParseExact(firstDate, "yyyy MM dd", CultureInfo.InvariantCulture);
-        Console.WriteLine(firstDate);
-
-    }
+    //public FirstDate(string firstDate)
+    //{
+    //    this.firstDate =  DateTime.ParseExact(firstDate, "yyyy MM dd", CultureInfo.InvariantCulture);
+    //    Console.WriteLine(firstDate);
+    //
+    //}
 }
 
