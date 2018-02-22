@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Globalization;
 
-namespace DateModifier
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        var firstDate = Console.ReadLine();
+        var secondDate = Console.ReadLine();
+
+        //var startDate = DateTime.ParseExact(firstDate, "yyyy MM dd", CultureInfo.InvariantCulture);
+        //var endtDate = DateTime.ParseExact(secondDate, "yyyy MM dd", CultureInfo.InvariantCulture);
+        //
+        //Console.WriteLine(Math.Abs((endtDate - startDate).TotalDays));
     }
 }
