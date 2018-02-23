@@ -18,8 +18,9 @@ public class DateModifier
     }
     public void TotalDays(string firstDate, string secondDate)
     {
-        this.firstDate = DateTime.ParseExact(firstDate, "yyyy MM dd", CultureInfo.InvariantCulture);
+        this.firstDate  = DateTime.ParseExact(firstDate,  "yyyy MM dd", CultureInfo.InvariantCulture);
         this.secondDate = DateTime.ParseExact(secondDate, "yyyy MM dd", CultureInfo.InvariantCulture);
+
         Console.WriteLine(Math.Abs((this.FirstDate - this.SecondDate).TotalDays));
     }
 }     
