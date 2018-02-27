@@ -13,7 +13,7 @@ class StartUp
         {
             var input = Console.ReadLine().Split();
             var name = input[0];
-            var salary = decimal.Parse(input[1]);
+            var salary = double.Parse(input[1]);
             var position = input[2];
             var department = input[3];
             var email = "n/a";
@@ -38,34 +38,38 @@ class StartUp
             employees[department].Add(employee);
         }
 
-        //foreach (var employee in employees.OrderByDescending(x => x.Salary).Where(x => x.Department == highestSalaryDepartment))
-        //{
-        //    Console.WriteLine("{0} {1:f2} {2} {3}", employee.Name, employee.Salary, employee.Email, employee.Age);
-        //}
+        var highestSalaryDepartment = "";
+        double highestSalary = 0;
 
-        //foreach (var employee in employees.OrderByDescending(x => x.Value.OrderByDescending(y => y.Salary)))
         foreach (var employee in employees)
-            {
-            Console.WriteLine(employee.Key);
+        {
+            var salaryCheck = from member in employee.Value.Select(x => x.Salary) select member;
 
-            foreach (var mem in employee.Value)
+            if (salaryCheck.Average() > highestSalary)
             {
-                Console.WriteLine("{0} {1:f2} {2} {3}", mem.Name, mem.Salary, mem.Email, mem.Age);
+                highestSalary = salaryCheck.Average();
+                highestSalaryDepartment = employee.Key;
             }
         }
 
-        //var testSalary = employees.Average(x => x.Salary);
+        foreach (var employee in employees.Where(x => x.Key == highestSalaryDepartment))
+        {
+            Console.WriteLine("Highest Average Salary: {0}", employee.Key);
+        
+            foreach (var person in employee.Value.OrderByDescending(x => x.Salary))
+            {
+                Console.WriteLine("{0} {1:f2} {2} {3}", person.Name, person.Salary, person.Email, person.Age);
+            }
+        }
     }
-
+    
     //public void Addemployee(string department, Employee employee, Dictionary<string, List<Employee>> employees)
     //{
     //    if (!employees.ContainsKey(department))
     //    {
     //        employees.Add(department, new List<Employee>());
     //    }
-    //
     //    employees[department].Add(employee);
-    //    
     //}
 }
 
