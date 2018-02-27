@@ -12,30 +12,7 @@ class StartUp
         for (int i = 0; i < n; i++)
         {
             var input = Console.ReadLine().Split();
-            var name = input[0];
-            var salary = double.Parse(input[1]);
-            var position = input[2];
-            var department = input[3];
-            var email = "n/a";
-            var age = -1;
-
-            if (input.Length == 5)
-            {
-                email = input[4];
-            }
-            if (input.Length == 6)
-            {
-                email = input[4];
-                age = int.Parse(input[5]);
-            }
-
-            var employee = new Employee(name,  salary,  position,  department,  email, age);
-           
-            if (!employees.ContainsKey(department))
-            {
-                employees.Add(department, new List<Employee>());
-            }
-            employees[department].Add(employee);
+            AddMember(input, employees);
         }
 
         var highestSalaryDepartment = "";
@@ -60,5 +37,32 @@ class StartUp
                 Console.WriteLine("{0} {1:f2} {2} {3}", person.Name, person.Salary, person.Email, person.Age);
             }
         }
+    }
+    static void AddMember(string[] input, Dictionary<string, List<Employee>> employees)
+    {
+        var name = input[0];
+        var salary = double.Parse(input[1]);
+        var position = input[2];
+        var department = input[3];
+        var email = "n/a";
+        var age = -1;
+
+        if (input.Length == 5)
+        {
+            email = input[4];
+        }
+        if (input.Length == 6)
+        {
+            email = input[4];
+            age = int.Parse(input[5]);
+        }
+
+        var employee = new Employee(name, salary, position, department, email, age);
+
+        if (!employees.ContainsKey(department))
+        {
+            employees.Add(department, new List<Employee>());
+        }
+        employees[department].Add(employee);
     }
 }
