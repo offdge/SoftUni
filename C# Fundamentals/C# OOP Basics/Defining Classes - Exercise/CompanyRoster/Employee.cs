@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-
-class Employee
+﻿class Employee
 {
     private string name;
     private double salary;

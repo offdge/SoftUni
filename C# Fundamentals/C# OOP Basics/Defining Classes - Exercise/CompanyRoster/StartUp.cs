@@ -30,7 +30,7 @@ class StartUp
             }
 
             var employee = new Employee(name,  salary,  position,  department,  email, age);
-
+           
             if (!employees.ContainsKey(department))
             {
                 employees.Add(department, new List<Employee>());
@@ -51,7 +51,6 @@ class StartUp
                 highestSalaryDepartment = employee.Key;
             }
         }
-
         foreach (var employee in employees.Where(x => x.Key == highestSalaryDepartment))
         {
             Console.WriteLine("Highest Average Salary: {0}", employee.Key);
@@ -62,15 +61,4 @@ class StartUp
             }
         }
     }
-    
-    //public void Addemployee(string department, Employee employee, Dictionary<string, List<Employee>> employees)
-    //{
-    //    if (!employees.ContainsKey(department))
-    //    {
-    //        employees.Add(department, new List<Employee>());
-    //    }
-    //    employees[department].Add(employee);
-    //}
 }
-
-
