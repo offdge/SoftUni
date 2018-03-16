@@ -6,7 +6,14 @@ namespace Minedraft
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                var hammer = new HammerHarvester("Patzo", -12, 10);
+            }
+            catch (Exception x)
+            {
+                Console.WriteLine(x);
+            }
         }
     }
 }

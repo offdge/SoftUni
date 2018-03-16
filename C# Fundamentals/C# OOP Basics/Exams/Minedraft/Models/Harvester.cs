@@ -9,12 +9,6 @@ public abstract class Harvester
     private double oreOutput;
     private double energyRequirement;
 
-    protected Harvester(string id, double oreOutput, double energyRequirement)
-    {
-        this.Id = id;
-        this.oreOutput = oreOutput;
-        this.energyRequirement = energyRequirement;
-    }
 
     public string Id
     {
@@ -25,11 +19,26 @@ public abstract class Harvester
     public double OreOutput
     {
         get => this.oreOutput;
-        set => this.oreOutput = value;
+        private set
+        {
+            if (value < 0 || value > 2000)
+            {
+                throw new ArgumentException();
+            }
+            this.oreOutput = value;
+        }
     }
+
     public double EnergyRequirement
     {
         get => this.energyRequirement;
-        set => this.energyRequirement = value;
+        private set => this.energyRequirement = value;
+    }
+
+    protected Harvester(string id, double oreOutput, double energyRequirement)
+    {
+        this.Id = id;
+        this.OreOutput = oreOutput;
+        this.EnergyRequirement = energyRequirement;
     }
 }

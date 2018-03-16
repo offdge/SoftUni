@@ -8,11 +8,6 @@ public abstract class Provider
     private string id;
     private double energyOutput;
 
-    protected Provider(string id, double oreOutput)
-    {
-        this.Id = id;
-        this.energyOutput = oreOutput;
-    }
 
     public string Id
     {
@@ -23,6 +18,19 @@ public abstract class Provider
     public double EnergyOutput
     {
         get => this.energyOutput;
-        set => this.energyOutput = value;
+        private set
+        {
+            if (value < 0 || value > 10000)
+            {
+                throw new ArgumentException();
+            }
+            this.energyOutput = value;
+        }
+    }
+
+    protected Provider(string id, double oreOutput)
+    {
+        this.Id = id;
+        this.energyOutput = oreOutput;
     }
 }
