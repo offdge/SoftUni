@@ -31,5 +31,4 @@ public abstract class Tyre
     {
         this.Degradation -= this.Hardness;
     }
-
 }

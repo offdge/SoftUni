@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minedraft", "Minedraft\Mine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrandPrixExamPreparation", "GrandPrixExamPreparation\GrandPrixExamPreparation.csproj", "{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards", "DungeonsAndCodeWizards\DungeonsAndCodeWizards.csproj", "{676226CD-F9C5-4448-BE07-8314E5404581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards", "DungeonsAndCodeWizards_Author's Solution\DungeonsAndCodeWizards.csproj", "{0772709B-784D-4C48-A230-4C8002A87593}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{676226CD-F9C5-4448-BE07-8314E5404581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{676226CD-F9C5-4448-BE07-8314E5404581}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{676226CD-F9C5-4448-BE07-8314E5404581}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{676226CD-F9C5-4448-BE07-8314E5404581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0772709B-784D-4C48-A230-4C8002A87593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0772709B-784D-4C48-A230-4C8002A87593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0772709B-784D-4C48-A230-4C8002A87593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0772709B-784D-4C48-A230-4C8002A87593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
