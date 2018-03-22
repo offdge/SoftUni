@@ -9,9 +9,11 @@ namespace DungeonsAndCodeWizards
     {
         public Bag(int capacity)
         {
-            this.capacity = capacity;
+            this.items = new List<Item>();
+            this.Capacity = capacity;
         }
-        private int capacity;
+
+        private int capacity = 100;
 
         public int Capacity
         {
@@ -19,7 +21,7 @@ namespace DungeonsAndCodeWizards
             set { capacity = value; }
         }
 
-        private readonly List<Item> items;
+        private List<Item> items;
 
         public IReadOnlyCollection<Item> Items
         {
@@ -29,17 +31,11 @@ namespace DungeonsAndCodeWizards
             }
         }
 
-        private int load;
-
-        public int Load
-        {
-            get { return load; }
-            set { load = value; }
-        }
+        private int Load => this.items.Sum(i => i.Weight);
 
         public void AddItem(Item item)
         {
-            if (this.load + item.Weight > this.capacity)
+            if (this.Load + item.Weight > this.capacity)
             {
                 throw new InvalidOperationException("Bag is full!");
             }
