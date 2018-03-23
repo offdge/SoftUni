@@ -9,14 +9,5 @@ namespace DungeonsAndCodeWizards
         public ArmorRepairKit() : base(10)
         {
         }
-
-        public void AffectCharacter(Character character)
-        {
-            if (!character.IsAlive)
-            {
-                throw new InvalidOperationException("Must be alive to perform this action!");
-            }
-            
-        }
     }
 }

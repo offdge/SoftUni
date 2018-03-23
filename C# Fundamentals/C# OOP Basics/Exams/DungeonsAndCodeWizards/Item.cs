@@ -19,7 +19,7 @@ namespace DungeonsAndCodeWizards
             Weight = weight;
         }
 
-        public void AffectCharacter(Character character)
+        public virtual void AffectCharacter(Character character)
         {
             if (!character.IsAlive)
             {

@@ -27,7 +27,8 @@ namespace DungeonsAndCodeWizards
         {
             get
             {
-                return this.items.AsReadOnly();
+                return this.items;
+                //return this.items.AsReadOnly();
             }
         }
 
