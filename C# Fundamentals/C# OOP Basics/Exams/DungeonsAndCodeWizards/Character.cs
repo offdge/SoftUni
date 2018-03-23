@@ -68,25 +68,37 @@ namespace DungeonsAndCodeWizards
 
         public void TakeDamage(double hitPoints)
         {
-            if (IsAlive)
-            {
-                if (armor > hitPoints)
-                {
-
-                }
-            }
             if (!IsAlive)
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+            else
+            {
+                if (armor > hitPoints)
+                {
+                    this.Armor -= hitPoints;
+                }
+                else
+                {
+                    this.Health -= armor - hitPoints;
+                    this.Armor = 0;
+
+                    if (health <= 0)
+                    {
+                        IsAlive = false;
+                    }
+                }
+            }
         }
 
-        public void  Rest()
+        public void Rest()
         {
             if (!IsAlive)
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+
+            this.Health += this.BaseHealth * this.RestHealMultiplier;
         }
 
         public void UseItem(Item item)
@@ -95,6 +107,8 @@ namespace DungeonsAndCodeWizards
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+
+            UseItemOn(item, this);
         }
 
         public void UseItemOn(Item item, Character character)
@@ -103,6 +117,8 @@ namespace DungeonsAndCodeWizards
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+
+            item.AffectCharacter(character);
         }
 
         public void GiveCharacterItem(Item item, Character character)
@@ -111,6 +127,8 @@ namespace DungeonsAndCodeWizards
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+
+            character.ReceiveItem(item);
         }
 
         public void ReceiveItem(Item item)
@@ -119,6 +137,8 @@ namespace DungeonsAndCodeWizards
             {
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
+
+            this.Bag.AddItem(item);
         }
 
         public Character(string name, double health, double armor, double abilityPoints, Bag bag, Faction faction)

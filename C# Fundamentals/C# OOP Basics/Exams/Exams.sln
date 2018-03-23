@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minedraft", "Minedraft\Mine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrandPrixExamPreparation", "GrandPrixExamPreparation\GrandPrixExamPreparation.csproj", "{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards_Author's Solution", "DungeonsAndCodeWizards_Author's Solution\DungeonsAndCodeWizards_Author's Solution.csproj", "{0772709B-784D-4C48-A230-4C8002A87593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards", "DungeonsAndCodeWizards\DungeonsAndCodeWizards.csproj", "{5293A4B5-9A2A-47F0-BD7F-0EB066340D90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards", "DungeonsAndCodeWizards\DungeonsAndCodeWizards.csproj", "{86B1B3A5-C270-43F2-B1E1-4A8CA0E06116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndCodeWizards_Author's Solution", "DungeonsAndCodeWizards_Author's Solution\DungeonsAndCodeWizards_Author's Solution.csproj", "{792C1ACF-54E9-46E1-A390-69E5650A78A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E40A08-E47E-43F7-BD54-0BD45A6224B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0772709B-784D-4C48-A230-4C8002A87593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0772709B-784D-4C48-A230-4C8002A87593}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0772709B-784D-4C48-A230-4C8002A87593}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0772709B-784D-4C48-A230-4C8002A87593}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86B1B3A5-C270-43F2-B1E1-4A8CA0E06116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86B1B3A5-C270-43F2-B1E1-4A8CA0E06116}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86B1B3A5-C270-43F2-B1E1-4A8CA0E06116}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86B1B3A5-C270-43F2-B1E1-4A8CA0E06116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5293A4B5-9A2A-47F0-BD7F-0EB066340D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5293A4B5-9A2A-47F0-BD7F-0EB066340D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5293A4B5-9A2A-47F0-BD7F-0EB066340D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5293A4B5-9A2A-47F0-BD7F-0EB066340D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792C1ACF-54E9-46E1-A390-69E5650A78A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792C1ACF-54E9-46E1-A390-69E5650A78A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792C1ACF-54E9-46E1-A390-69E5650A78A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792C1ACF-54E9-46E1-A390-69E5650A78A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
