@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01GenericBox", "01GenericBox\01GenericBox.csproj", "{FAE4603B-C9E8-4E96-B5D0-F1AD8D19170D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01GenericBox", "01GenericBox\01GenericBox.csproj", "{FAE4603B-C9E8-4E96-B5D0-F1AD8D19170D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03GenericSwapMethodStrings", "03GenericSwapMethodStrings\03GenericSwapMethodStrings.csproj", "{91D0B2C4-9ECD-4DF4-BE6F-8A3DC5F31BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04GenericSwapMethodIntegers", "04GenericSwapMethodIntegers\04GenericSwapMethodIntegers.csproj", "{07C30FD2-E335-4139-B22D-CC4696999A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FAE4603B-C9E8-4E96-B5D0-F1AD8D19170D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE4603B-C9E8-4E96-B5D0-F1AD8D19170D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE4603B-C9E8-4E96-B5D0-F1AD8D19170D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D0B2C4-9ECD-4DF4-BE6F-8A3DC5F31BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D0B2C4-9ECD-4DF4-BE6F-8A3DC5F31BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D0B2C4-9ECD-4DF4-BE6F-8A3DC5F31BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D0B2C4-9ECD-4DF4-BE6F-8A3DC5F31BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C30FD2-E335-4139-B22D-CC4696999A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C30FD2-E335-4139-B22D-CC4696999A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C30FD2-E335-4139-B22D-CC4696999A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C30FD2-E335-4139-B22D-CC4696999A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
