@@ -3,18 +3,22 @@ using System.Collections.Generic;
 
 namespace _01GenericBox
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
+            var box = new Box<int>();
+
             var n = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < n; i++)
             {
-                var input = Console.ReadLine();
-                var box = new Box<string>(input);
-                Console.WriteLine(box.ToString());
+                var input = int.Parse(Console.ReadLine());
+
+                box.Add(input); 
             }
+
+            box.Print();
         }  
     }
 }
