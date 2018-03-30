@@ -7,12 +7,14 @@ namespace _01GenericBox
     {
         static void Main(string[] args)
         {
-            var box = new Box<int>();
+            var n = int.Parse(Console.ReadLine());
 
-            box.Add(1234);
-
-
-            Console.WriteLine(box.ToString());
-        }
+            for (int i = 0; i < n; i++)
+            {
+                var input = Console.ReadLine();
+                var box = new Box<string>(input);
+                Console.WriteLine(box.ToString());
+            }
+        }  
     }
 }

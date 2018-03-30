@@ -1,28 +1,22 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+
 
 namespace _01GenericBox
 {
     public class Box<T>
     {
-        private List<T> box;
+        private T value;
 
-        public T Value { get; set; }
-
-        public Box()
+        public Box(T value)
         {
-            this.box = new List<T>();
-        }
-
-        public void Add(T item)
-        {
-            this.box.Add(item);
-            this.Value = item;
+            this.value = value;
         }
 
         public override string ToString()
         {
-            return $"{typeof(T).FullName}: {this.Value}";
+            return $"{this.value.GetType().FullName}: {value}";
         }
     }
 }
